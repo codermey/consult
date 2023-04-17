@@ -1,0 +1,11 @@
+[
+  { "path": "/home", "text": "首页", "active": "index-active", "default": "index-default" },
+  {
+    "path": "/article",
+    "text": "健康百科",
+    "active": "article-active",
+    "default": "article-default"
+  },
+  { "path": "/notify", "text": "消息中心", "active": "notice-active", "default": "notice-default" },
+  { "path": "/profile", "text": "我的", "active": "mine-active", "default": "mine-default" }
+]

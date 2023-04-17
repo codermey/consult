@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/user/consult",
+    "text": "我的问诊",
+    "icon": "user-tool-01"
+  },
+  {
+    "path": "/",
+    "text": "我的处方",
+    "icon": "user-tool-02"
+  },
+  {
+    "path": "/user/patient",
+    "text": "家庭档案",
+    "icon": "user-tool-03"
+  },
+  {
+    "path": "/",
+    "text": "地址管理",
+    "icon": "user-tool-04"
+  },
+  {
+    "path": "/",
+    "text": "我的评价",
+    "icon": "user-tool-05"
+  },
+  {
+    "path": "/",
+    "text": "官方客服",
+    "icon": "user-tool-06"
+  },
+  {
+    "path": "/",
+    "text": "设置",
+    "icon": "user-tool-07"
+  }
+]

@@ -1,0 +1,52 @@
+:root:root {
+  // color
+  --primary-color: #16c2a3;
+  --plain-color: #eaf8f6;
+  --orange-color: #fca21c;
+  --text1-color: #121826;
+  --text2-color: #3c3e42;
+  --text3-color: #6f6f6f;
+  --tag-color: #848484;
+  --dark-color: #979797;
+  --tip-color: #c3c3c5;
+  --disable-color: #d9dbde;
+  --line-color: #ededed;
+  --bg-color: #f6f7f9;
+  --price-color: #eb5757;
+  --wang-color: #f2994a;
+
+  /** vant组件变量 */
+  // 覆盖vant主体色
+  --van-primary-color: var(--primary-color);
+  // 单元格上下间距
+  --van-cell-vertical-padding: 14px;
+  // 复选框大小
+  --van-checkbox-size: 14px;
+  // 默认按钮文字大小
+  --van-button-normal-font-size: 16px;
+  --van-dialog-confirm-button-text-color: var(--price-color);
+}
+
+/** 全局样式 */
+body {
+  font-size: 14px;
+  color: var(--text1-color);
+}
+
+a {
+  color: var(--text2-color);
+}
+
+/** 全局覆盖vant样式 */
+.van-tabs {
+  &__nav {
+    padding: 0 0 15px 0;
+  }
+  &__line {
+    width: 20px;
+    background-color: var(--primary-color);
+  }
+  .van-tab {
+    padding: 0 15px;
+  }
+}
